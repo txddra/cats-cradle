@@ -73,17 +73,45 @@ function everyThird(str){
         }
 }
 // }
+
+
+//solution we went over in class
+// function printEveryThirdCharacter(str){
+//     let i = 2;
+//     while(i < str.length){
+//     console.log(str[i]);
+
+//         i = i + 3
+//     }
+// }
+
+
 challengeBanner(3)
 everyThird("I am the alfalfa and the omelette.")
 
 function firstFour(x, str){
-    let i = 0;
-        while( i < str){
-      if(i < 4){
-    console.log(str[i]);
+    let x = 0;
+        while( x < str){
+      if(x < 4){
+    console.log(str[x]);
     //   } i= i + 1
-        }  i++
+        }  x++
 }
 }
+
+//solution we went over in class 
+// function firstFourCharactersAfter(){
+//     let count = 0;//only gonna hit four characters
+//     let i = start; 
+//     while(i <str.length){
+//         if(count < 4){
+//             console.log(str[i]);
+//             count = count + 1
+//         }
+//         i = i + 1
+//     }
+// }
+
 challengeBanner(4)
-firstFour("Oh hi, I didn't see you there. Welcome.")
+firstFour("Oh hi, I didn't see you there. Welcome.", 4)
+firstFour("Oh hi, I didn't see you there. Welcome.", 36)
