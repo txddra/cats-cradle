@@ -89,18 +89,18 @@ function everyThird(str){
 challengeBanner(3)
 everyThird("I am the alfalfa and the omelette.")
 
-function firstFour(x, str){
-    let x = 0;
-        while( x < str){
+function firstFour(str, x){
+     x = 0;
+        while( x < str.length){
       if(x < 4){
     console.log(str[x]);
-    //   } i= i + 1
+    //   } x = x + 1
         }  x++
 }
 }
 
 //solution we went over in class 
-// function firstFourCharactersAfter(){
+// function firstFourCharactersAfter(str, start){
 //     let count = 0;//only gonna hit four characters
 //     let i = start; 
 //     while(i <str.length){
