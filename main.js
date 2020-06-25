@@ -115,3 +115,31 @@ function firstFour(str, x){
 challengeBanner(4)
 firstFour("Oh hi, I didn't see you there. Welcome.", 4)
 firstFour("Oh hi, I didn't see you there. Welcome.", 36)
+
+//solution we went over in class 
+function indexOfU(str){
+let i = 0;
+while(i < str.length){
+    if(str[i]=== 'u'){
+        console.log(i)
+    }
+
+    i = i + 1;
+}
+ }
+
+challengeBanner(5)
+indexOfU("You picked the wrong house, bub.")
+
+function indexOfU(str){
+    let i = 0;
+while(i < str.length){
+    if(str[i]=== 'u' && count === 0){
+        console.log(i)
+        count = 1;
+    }
+
+    i = i + 1;
+}
+
+}
