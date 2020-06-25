@@ -43,10 +43,22 @@ function firstFive(str){
                     console.log(str[i])
             }
                     i++;
-
-
     }
 }
+
+//solution we went over in class
+// function firstFiveVowels(){
+// const vowels ="aeiou";
+// let count = 0;
+// let i = 0;
+// while(i < str.length){
+//     if (vowels.includes(str[i] && count < 5)){
+//         console.log(str[i]);
+//     }
+// i = i + i
+//   }
+// }
+
 challengeBanner(2)
 firstFive("Regular expressions are for term 2.")
 
